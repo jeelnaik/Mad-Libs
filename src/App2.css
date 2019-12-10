@@ -1,0 +1,53 @@
+.App {
+  margin: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  background-color: RGBA(220, 221, 222, 0.0);
+  color: white;
+  font-weight: bold;
+
+}
+
+.form{
+    margin: 10px;
+    text-align: left;
+    float: left;
+    font-family:fantasy;
+}
+
+.story {
+    float: right;
+    font-family:fantasy;
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 250px;
+}
+
+body {
+    background-image: url(https://cdn.spacetelescope.org/archives/images/wallpaper5/heic1520a.jpg);
+}
+
+label{
+    /* display: inline-block;
+    float: left;
+    clear: left;
+    text-align: right; */
+}
+input {
+  width: 220px;
+  height: 20px;
+  display: block;
+  /* float: left; */
+
+}
+
+button{
+    background-color: rgb(135, 210, 245);
+    margin: 10px;
+    width: 70px;
+    height: 40px;
+    font-family:fantasy;
+    font-style: oblique;
+}
